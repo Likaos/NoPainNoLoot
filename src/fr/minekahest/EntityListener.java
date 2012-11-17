@@ -15,7 +15,7 @@ public class EntityListener implements Listener {
 	//Cet event permet de gérer la mort d'une entité, via filtre il est facile de retrouver
 	//Qui a fait quoi, ici on s'intéresse à toutes les morts qui ne concernent que les non joueurs
 	//Et on s'assure que ça soit bien un joueur qui ai achevé la créature.
-	public void onPlayerJoin (EntityDeathEvent event) {
+	public void onEntityDeath (EntityDeathEvent event) {
 	    Entity entity = event.getEntity();
 	    //On vérifie si l'entité morte ne soit pas un joueur
 	    if ( ! (entity instanceof Player)) {
