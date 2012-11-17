@@ -9,7 +9,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDeathEvent;
 
-public class EntityListener implements Listener {
+public class NPNL_Listener implements Listener {
 	
 	@EventHandler
 	//Cet event permet de gérer la mort d'une entité, via filtre il est facile de retrouver

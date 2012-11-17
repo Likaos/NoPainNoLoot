@@ -10,7 +10,7 @@ public class NoPainNoLoot extends JavaPlugin {
     public void onEnable(){
     	//Enregistrement du listener
     	PluginManager pm = this.getServer().getPluginManager();
-        pm.registerEvents(new EntityListener(), this);
+        pm.registerEvents(new NPNL_Listener(), this);
     }
  
     //ARRET DU PLUGIN
